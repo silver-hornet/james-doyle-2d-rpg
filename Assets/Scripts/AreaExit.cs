@@ -7,6 +7,12 @@ public class AreaExit : MonoBehaviour
 {
     public string areaToLoad;
     public string areaTransitionName;
+    public AreaEntrance theEntrance;
+
+    void Start()
+    {
+        theEntrance.transitionName = areaTransitionName;
+    }
 
     void OnTriggerEnter2D(Collider2D other)
     {

@@ -43,7 +43,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 034cbdfb0ced24164afdb197f96c950a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  transitionName: Countryside-1
+  transitionName: 
 --- !u!1 &1326623900688346501
 GameObject:
   m_ObjectHideFlags: 0
@@ -117,3 +117,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   areaToLoad: Test
   areaTransitionName: 
+  theEntrance: {fileID: 92137926}
