@@ -480,6 +480,7 @@ MonoBehaviour:
   theRB: {fileID: 2036380791}
   moveSpeed: 10
   myAnim: {fileID: 2036380793}
+  areaTransitionName: 
 --- !u!95 &2036380793
 Animator:
   serializedVersion: 3
@@ -506,6 +507,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 92137925, guid: 67de18fe674f6401c8173fef916a8b00, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.31
+      objectReference: {fileID: 0}
+    - target: {fileID: 1326623900688346496, guid: 67de18fe674f6401c8173fef916a8b00,
+        type: 3}
+      propertyPath: areaToLoad
+      value: Test 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1326623900688346496, guid: 67de18fe674f6401c8173fef916a8b00,
+        type: 3}
+      propertyPath: areaTransitionName
+      value: Countryside-1
+      objectReference: {fileID: 0}
     - target: {fileID: 1326623900688346501, guid: 67de18fe674f6401c8173fef916a8b00,
         type: 3}
       propertyPath: m_Name
