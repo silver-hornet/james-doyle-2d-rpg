@@ -22,7 +22,8 @@ public class CameraController : MonoBehaviour
         halfWidth = halfHeight * Camera.main.aspect;
 
         bottomLeftLimit = theMap.localBounds.min + new Vector3(halfWidth, halfHeight, 0f);
-        topRightLimit = theMap.localBounds.max + new Vector3(-halfWidth, -halfHeight, 0f); ;
+        topRightLimit = theMap.localBounds.max + new Vector3(-halfWidth, -halfHeight, 0f);
+        PlayerController.instance.SetBounds(theMap.localBounds.min, theMap.localBounds.max);
     }
 
     void LateUpdate()
