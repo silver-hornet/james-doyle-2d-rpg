@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class DialogManager : MonoBehaviour
 {
+    public static DialogManager instance;
+
     public Text dialogText;
     public Text nameText;
     public GameObject dialogBox;
@@ -13,10 +15,12 @@ public class DialogManager : MonoBehaviour
     public string[] dialogLines;
 
     public int currentLine;
+    bool justStarted;
 
     void Start()
     {
-        dialogText.text = dialogLines[currentLine];
+        instance = this;
+        //dialogText.text = dialogLines[currentLine];
     }
 
     void Update()
@@ -25,17 +29,33 @@ public class DialogManager : MonoBehaviour
         {
             if (Input.GetButtonUp("Fire1"))
             {
-                currentLine++;
-
-                if (currentLine >= dialogLines.Length)
+                if (!justStarted)
                 {
-                    dialogBox.SetActive(false);
+                    currentLine++;
+
+                    if (currentLine >= dialogLines.Length)
+                    {
+                        dialogBox.SetActive(false);
+                    }
+                    else
+                    {
+                        dialogText.text = dialogLines[currentLine];
+                    }
                 }
                 else
                 {
-                    dialogText.text = dialogLines[currentLine];
+                    justStarted = false;
                 }
             }
         }
+    }
+
+    public void ShowDialog(string[] newLines)
+    {
+        dialogLines = newLines;
+        currentLine = 0;
+        dialogText.text = dialogLines[0];
+        dialogBox.SetActive(true);
+        justStarted = true;
     }
 }
