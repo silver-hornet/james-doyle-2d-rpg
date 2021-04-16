@@ -6,12 +6,13 @@ public class DialogActivator : MonoBehaviour
 {
     public string[] lines;
     bool canActivate;
+    public bool isPerson = true;
 
     void Update()
     {
         if (canActivate && Input.GetButtonDown("Fire1") && !DialogManager.instance.dialogBox.activeInHierarchy)
         {
-            DialogManager.instance.ShowDialog(lines);
+            DialogManager.instance.ShowDialog(lines, isPerson);
         }
     }
 
