@@ -33,4 +33,23 @@ public class CharStats : MonoBehaviour
             expToNextLevel[i] = Mathf.FloorToInt(expToNextLevel[i - 1] * 1.05f);
         }
     }
+
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.K))
+        {
+            AddExp(500);
+        }
+    }
+
+    public void AddExp(int expToAdd)
+    {
+        currentEXP += expToAdd;
+
+        if (currentEXP > expToNextLevel[playerLevel])
+        {
+            currentEXP -= expToNextLevel[playerLevel];
+            playerLevel++;
+        }
+    }
 }
