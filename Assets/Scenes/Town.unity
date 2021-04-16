@@ -15955,6 +15955,9 @@ MonoBehaviour:
   charName: Tim
   playerLevel: 1
   currentEXP: 250
+  expToNextLevel: 
+  maxLevel: 100
+  baseEXP: 1000
   currentHP: 0
   maxHP: 100
   currentMP: 0
