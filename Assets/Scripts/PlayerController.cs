@@ -33,6 +33,7 @@ public class PlayerController : MonoBehaviour
         }
 
         DontDestroyOnLoad(gameObject);
+        canMove = true;
     }
 
     void Update()
