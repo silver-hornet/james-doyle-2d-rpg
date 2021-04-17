@@ -15,6 +15,7 @@ public class CharStats : MonoBehaviour
     public int maxHP = 100;
     public int currentMP;
     public int maxMP = 30;
+    public int[] mpLvlBonus;
     public int strength;
     public int defence;
     public int weaponPower;
@@ -36,9 +37,9 @@ public class CharStats : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.K))
+        if (Input.GetKey(KeyCode.K))
         {
-            AddExp(500);
+            AddExp(1000);
         }
     }
 
@@ -46,10 +47,34 @@ public class CharStats : MonoBehaviour
     {
         currentEXP += expToAdd;
 
-        if (currentEXP > expToNextLevel[playerLevel])
+        if (playerLevel < maxLevel)
         {
-            currentEXP -= expToNextLevel[playerLevel];
-            playerLevel++;
+            if (currentEXP > expToNextLevel[playerLevel])
+            {
+                currentEXP -= expToNextLevel[playerLevel];
+                playerLevel++;
+
+                // determine whether to add to strength or defence based on odd or even
+                if (playerLevel % 2 == 0) // if remainder is 0, then it's even
+                {
+                    strength++;
+                }
+                else
+                {
+                    defence++;
+                }
+
+                maxHP = Mathf.FloorToInt(maxHP * 1.05f);
+                currentHP = maxHP;
+
+                maxMP += mpLvlBonus[playerLevel];
+                currentMP = maxMP;
+            }
+        }
+
+        if (playerLevel >= maxLevel)
+        {
+            currentEXP = 0;
         }
     }
 }
