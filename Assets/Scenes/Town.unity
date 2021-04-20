@@ -5423,8 +5423,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: 
+      - m_Target: {fileID: 1977532778}
+        m_MethodName: StatusChar
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5552,7 +5552,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 497228869}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1977532778}
+        m_MethodName: StatusChar
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &497228869
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8168,8 +8179,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: 
+      - m_Target: {fileID: 1977532778}
+        m_MethodName: StatusChar
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -22186,6 +22197,17 @@ MonoBehaviour:
   - {fileID: 486619278}
   - {fileID: 1165871851}
   - {fileID: 497228866}
+  statusName: {fileID: 2071707418}
+  statusHP: {fileID: 1479682832}
+  statusMP: {fileID: 1700672365}
+  statusStrength: {fileID: 124158050}
+  statusDefence: {fileID: 890696323}
+  statusWeaponEquipped: {fileID: 911281568}
+  statusWeaponPower: {fileID: 877425024}
+  statusArmorEquipped: {fileID: 596830726}
+  statusArmorPower: {fileID: 471149808}
+  statusExp: {fileID: 815101084}
+  statusImage: {fileID: 1385712743}
 --- !u!1 &1985022375
 GameObject:
   m_ObjectHideFlags: 0

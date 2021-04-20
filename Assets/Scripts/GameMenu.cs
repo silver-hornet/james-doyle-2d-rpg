@@ -21,6 +21,18 @@ public class GameMenu : MonoBehaviour
 
     public GameObject[] statusButtons;
 
+    public Text statusName;
+    public Text statusHP;
+    public Text statusMP;
+    public Text statusStrength;
+    public Text statusDefence;
+    public Text statusWeaponEquipped;
+    public Text statusWeaponPower;
+    public Text statusArmorEquipped;
+    public Text statusArmorPower;
+    public Text statusExp;
+    public Image statusImage;
+
     void Update()
     {
         if (Input.GetButtonDown("Fire2"))
@@ -98,11 +110,37 @@ public class GameMenu : MonoBehaviour
         UpdateMainStats();
 
         // update the info that is shown
+        StatusChar(0);
 
         for (int i = 0; i < statusButtons.Length; i++)
         {
             statusButtons[i].SetActive(playerStats[i].gameObject.activeInHierarchy);
             statusButtons[i].GetComponentInChildren<Text>().text = playerStats[i].charName;
         }
+    }
+
+    public void StatusChar(int selected)
+    {
+        statusName.text = playerStats[selected].charName;
+        statusHP.text = "" + playerStats[selected].currentHP + "/" + playerStats[selected].maxHP;
+        statusMP.text = "" + playerStats[selected].currentMP + "/" + playerStats[selected].maxMP;
+        statusStrength.text = playerStats[selected].strength.ToString();
+        statusDefence.text = playerStats[selected].defence.ToString();
+
+        if (playerStats[selected].equippedWeapon != "")
+        {
+            statusWeaponEquipped.text = playerStats[selected].equippedWeapon;
+        }
+
+        statusWeaponPower.text = playerStats[selected].weaponPower.ToString();
+
+        if (playerStats[selected].equippedArmor != "")
+        {
+            statusArmorEquipped.text = playerStats[selected].equippedArmor;
+        }
+
+        statusArmorPower.text = playerStats[selected].armorPower.ToString();
+        statusExp.text = (playerStats[selected].expToNextLevel[playerStats[selected].playerLevel] - playerStats[selected].currentEXP).ToString();
+        statusImage.sprite = playerStats[selected].charImage;
     }
 }
