@@ -121,6 +121,95 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &60036019
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1326623900688346496, guid: 67de18fe674f6401c8173fef916a8b00,
+        type: 3}
+      propertyPath: areaToLoad
+      value: Shop
+      objectReference: {fileID: 0}
+    - target: {fileID: 1326623900688346496, guid: 67de18fe674f6401c8173fef916a8b00,
+        type: 3}
+      propertyPath: areaTransitionName
+      value: Town
+      objectReference: {fileID: 0}
+    - target: {fileID: 1326623900688346501, guid: 67de18fe674f6401c8173fef916a8b00,
+        type: 3}
+      propertyPath: m_Name
+      value: Area Exit (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1326623900688346502, guid: 67de18fe674f6401c8173fef916a8b00,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1326623900688346502, guid: 67de18fe674f6401c8173fef916a8b00,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1326623900688346503, guid: 67de18fe674f6401c8173fef916a8b00,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 12.53
+      objectReference: {fileID: 0}
+    - target: {fileID: 1326623900688346503, guid: 67de18fe674f6401c8173fef916a8b00,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.77
+      objectReference: {fileID: 0}
+    - target: {fileID: 1326623900688346503, guid: 67de18fe674f6401c8173fef916a8b00,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0203
+      objectReference: {fileID: 0}
+    - target: {fileID: 1326623900688346503, guid: 67de18fe674f6401c8173fef916a8b00,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1326623900688346503, guid: 67de18fe674f6401c8173fef916a8b00,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1326623900688346503, guid: 67de18fe674f6401c8173fef916a8b00,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1326623900688346503, guid: 67de18fe674f6401c8173fef916a8b00,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1326623900688346503, guid: 67de18fe674f6401c8173fef916a8b00,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1326623900688346503, guid: 67de18fe674f6401c8173fef916a8b00,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1326623900688346503, guid: 67de18fe674f6401c8173fef916a8b00,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1326623900688346503, guid: 67de18fe674f6401c8173fef916a8b00,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 67de18fe674f6401c8173fef916a8b00, type: 3}
 --- !u!1001 &380327626
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15795,107 +15884,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1957840491793313913, guid: 89b67ec131a8d4eda88a9460985ad27d,
-        type: 3}
-      propertyPath: referenceItems.Array.size
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 1957840491793313913, guid: 89b67ec131a8d4eda88a9460985ad27d,
-        type: 3}
-      propertyPath: itemsHeld.Array.size
-      value: 40
-      objectReference: {fileID: 0}
-    - target: {fileID: 1957840491793313913, guid: 89b67ec131a8d4eda88a9460985ad27d,
-        type: 3}
-      propertyPath: numberOfItems.Array.size
-      value: 40
-      objectReference: {fileID: 0}
-    - target: {fileID: 1957840491793313913, guid: 89b67ec131a8d4eda88a9460985ad27d,
-        type: 3}
-      propertyPath: referenceItems.Array.data[0]
-      value: 
-      objectReference: {fileID: 8409896150012060022, guid: 08bf63a4e07a94600a536480e4b43cd3,
-        type: 3}
-    - target: {fileID: 1957840491793313913, guid: 89b67ec131a8d4eda88a9460985ad27d,
-        type: 3}
-      propertyPath: referenceItems.Array.data[1]
-      value: 
-      objectReference: {fileID: 2423787933771222470, guid: 7af075d8a19ba4e0caba300989713844,
-        type: 3}
-    - target: {fileID: 1957840491793313913, guid: 89b67ec131a8d4eda88a9460985ad27d,
-        type: 3}
-      propertyPath: referenceItems.Array.data[2]
-      value: 
-      objectReference: {fileID: 3345590923557126022, guid: 12f274d9d97bd4c46bc9479a4f33bab1,
-        type: 3}
-    - target: {fileID: 1957840491793313913, guid: 89b67ec131a8d4eda88a9460985ad27d,
-        type: 3}
-      propertyPath: referenceItems.Array.data[3]
-      value: 
-      objectReference: {fileID: 7646625488072120787, guid: 8231a89c2bf224579a2807c5e03e34e2,
-        type: 3}
-    - target: {fileID: 1957840491793313913, guid: 89b67ec131a8d4eda88a9460985ad27d,
-        type: 3}
-      propertyPath: referenceItems.Array.data[4]
-      value: 
-      objectReference: {fileID: 7518122249181512043, guid: 505521f75b61946ff818b462e892b9a4,
-        type: 3}
-    - target: {fileID: 1957840491793313913, guid: 89b67ec131a8d4eda88a9460985ad27d,
-        type: 3}
-      propertyPath: referenceItems.Array.data[5]
-      value: 
-      objectReference: {fileID: 2257675488665864078, guid: 2789f52648d194f65aabc33b94006218,
-        type: 3}
-    - target: {fileID: 1957840491793313913, guid: 89b67ec131a8d4eda88a9460985ad27d,
-        type: 3}
-      propertyPath: itemsHeld.Array.data[4]
-      value: Health Potion
-      objectReference: {fileID: 0}
-    - target: {fileID: 1957840491793313913, guid: 89b67ec131a8d4eda88a9460985ad27d,
-        type: 3}
-      propertyPath: numberOfItems.Array.data[4]
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1957840491793313913, guid: 89b67ec131a8d4eda88a9460985ad27d,
-        type: 3}
-      propertyPath: numberOfItems.Array.data[7]
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1957840491793313913, guid: 89b67ec131a8d4eda88a9460985ad27d,
-        type: 3}
-      propertyPath: itemsHeld.Array.data[7]
-      value: Iron Sword
-      objectReference: {fileID: 0}
-    - target: {fileID: 1957840491793313913, guid: 89b67ec131a8d4eda88a9460985ad27d,
-        type: 3}
-      propertyPath: itemsHeld.Array.data[28]
-      value: Mana Potion
-      objectReference: {fileID: 0}
-    - target: {fileID: 1957840491793313913, guid: 89b67ec131a8d4eda88a9460985ad27d,
-        type: 3}
-      propertyPath: numberOfItems.Array.data[28]
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1957840491793313913, guid: 89b67ec131a8d4eda88a9460985ad27d,
-        type: 3}
-      propertyPath: itemsHeld.Array.data[22]
-      value: Leather Armor
-      objectReference: {fileID: 0}
-    - target: {fileID: 1957840491793313913, guid: 89b67ec131a8d4eda88a9460985ad27d,
-        type: 3}
-      propertyPath: numberOfItems.Array.data[22]
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1957840491793313913, guid: 89b67ec131a8d4eda88a9460985ad27d,
-        type: 3}
-      propertyPath: itemsHeld.Array.data[12]
-      value: Wooden Sword
-      objectReference: {fileID: 0}
-    - target: {fileID: 1957840491793313913, guid: 89b67ec131a8d4eda88a9460985ad27d,
-        type: 3}
-      propertyPath: numberOfItems.Array.data[12]
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 1957840491793314182, guid: 89b67ec131a8d4eda88a9460985ad27d,
         type: 3}
       propertyPath: m_LocalPosition.x
