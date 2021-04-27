@@ -12,6 +12,8 @@ public class Shop : MonoBehaviour
     public GameObject sellMenu;
 
     public Text goldText;
+
+    public string[] itemsForSale;
     
 
     void Start()
