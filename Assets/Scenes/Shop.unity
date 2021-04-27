@@ -13851,6 +13851,13 @@ MonoBehaviour:
   - {fileID: 701301718}
   - {fileID: 352119817}
   - {fileID: 640374075}
+  selectedItem: {fileID: 0}
+  buyItemName: {fileID: 1400116439}
+  buyItemDescription: {fileID: 1681685676}
+  buyItemValue: {fileID: 2143203254}
+  sellItemName: {fileID: 2059189}
+  sellItemDescription: {fileID: 624166025}
+  sellItemValue: {fileID: 1822169588}
 --- !u!1 &846287420
 GameObject:
   m_ObjectHideFlags: 0
