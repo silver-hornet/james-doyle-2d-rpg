@@ -13728,7 +13728,129 @@ MonoBehaviour:
   buyMenu: {fileID: 1333948248}
   sellMenu: {fileID: 578785817}
   goldText: {fileID: 1521469463}
-  itemsForSale: []
+  itemsForSale:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  buyItemButtons:
+  - {fileID: 455623871}
+  - {fileID: 143128155}
+  - {fileID: 580251149}
+  - {fileID: 2036882656}
+  - {fileID: 422989541}
+  - {fileID: 1214249719}
+  - {fileID: 1031658400}
+  - {fileID: 777970894}
+  - {fileID: 52715583}
+  - {fileID: 2143306323}
+  - {fileID: 42772874}
+  - {fileID: 704137337}
+  - {fileID: 1415188846}
+  - {fileID: 1140160037}
+  - {fileID: 1816367616}
+  - {fileID: 1860978680}
+  - {fileID: 783903544}
+  - {fileID: 1997641699}
+  - {fileID: 537140944}
+  - {fileID: 760519809}
+  - {fileID: 161159643}
+  - {fileID: 346273590}
+  - {fileID: 1581151592}
+  - {fileID: 237849368}
+  - {fileID: 1592185925}
+  - {fileID: 1674242739}
+  - {fileID: 1431143209}
+  - {fileID: 452209867}
+  - {fileID: 959908259}
+  - {fileID: 309760203}
+  - {fileID: 1931785017}
+  - {fileID: 1720780509}
+  - {fileID: 675832210}
+  - {fileID: 1235778462}
+  - {fileID: 597738810}
+  - {fileID: 978020620}
+  - {fileID: 1350365387}
+  - {fileID: 434168355}
+  - {fileID: 857318844}
+  - {fileID: 1316729385}
+  sellItemButtons:
+  - {fileID: 266680385}
+  - {fileID: 191530220}
+  - {fileID: 1124996455}
+  - {fileID: 849675674}
+  - {fileID: 122286678}
+  - {fileID: 1620824214}
+  - {fileID: 1217754485}
+  - {fileID: 1677137138}
+  - {fileID: 530701179}
+  - {fileID: 1286739655}
+  - {fileID: 437280657}
+  - {fileID: 795603365}
+  - {fileID: 931119707}
+  - {fileID: 1003339458}
+  - {fileID: 1163115218}
+  - {fileID: 937415035}
+  - {fileID: 786483184}
+  - {fileID: 1048230691}
+  - {fileID: 483350944}
+  - {fileID: 1323640132}
+  - {fileID: 739231538}
+  - {fileID: 858774858}
+  - {fileID: 735432136}
+  - {fileID: 1503218060}
+  - {fileID: 1769033653}
+  - {fileID: 1659039390}
+  - {fileID: 389334504}
+  - {fileID: 1869377431}
+  - {fileID: 1944044816}
+  - {fileID: 894057215}
+  - {fileID: 1139799066}
+  - {fileID: 1456017389}
+  - {fileID: 419332770}
+  - {fileID: 2247736}
+  - {fileID: 1140219426}
+  - {fileID: 1355989309}
+  - {fileID: 7492177}
+  - {fileID: 701301718}
+  - {fileID: 352119817}
+  - {fileID: 640374075}
 --- !u!1 &846287420
 GameObject:
   m_ObjectHideFlags: 0
@@ -15528,8 +15650,38 @@ MonoBehaviour:
   - Leather Armor
   - 
   - 
-  - Wood Sword
+  - Wooden Sword
   - Iron Sword
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
 --- !u!1 &959908257
 GameObject:
   m_ObjectHideFlags: 0
