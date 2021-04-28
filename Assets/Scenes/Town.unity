@@ -15946,6 +15946,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 89b67ec131a8d4eda88a9460985ad27d, type: 3}
+--- !u!1 &1957840491337454970 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1957840491793314183, guid: 89b67ec131a8d4eda88a9460985ad27d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1957840491337454969}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1957840491337454971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1957840491337454970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 836303bdecaad4770ab08e49cb92d7b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questMarkerNames:
+  - 
+  - Fight the demon
+  - Enter the cave
+  - Quest test
+  - Save the world
+  questMarkersComplete: 
 --- !u!1001 &3562577533571956417
 PrefabInstance:
   m_ObjectHideFlags: 0
