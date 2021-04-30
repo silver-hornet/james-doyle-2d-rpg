@@ -14,6 +14,9 @@ public class CameraController : MonoBehaviour
     float halfHeight;
     float halfWidth;
 
+    public int musicToPlay;
+    bool musicStarted;
+
     void Start()
     {
         //target = PlayerController.instance.transform;
@@ -33,5 +36,11 @@ public class CameraController : MonoBehaviour
 
         // keep the camera inside the bounds
         transform.position = new Vector3(Mathf.Clamp(transform.position.x, bottomLeftLimit.x, topRightLimit.x), Mathf.Clamp(transform.position.y, bottomLeftLimit.y, topRightLimit.y), transform.position.z);
+
+        if (!musicStarted)
+        {
+            musicStarted = true;
+            AudioManager.instance.PlayBGM(musicToPlay);
+        }
     }
 }

@@ -2030,6 +2030,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: UI Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 4349714806690414456, guid: c7021badf23594f2185f1ae224aa008a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c7021badf23594f2185f1ae224aa008a, type: 3}
 --- !u!1 &950785198
@@ -2212,6 +2217,11 @@ PrefabInstance:
       propertyPath: theMap
       value: 
       objectReference: {fileID: 1199041127}
+    - target: {fileID: 8151821164340122239, guid: 72c68d6d310184556bc36e2231ef8bf0,
+        type: 3}
+      propertyPath: musicToPlay
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8151821164340122241, guid: 72c68d6d310184556bc36e2231ef8bf0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3136,6 +3146,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Game Manager
+      objectReference: {fileID: 0}
+    - target: {fileID: 1957840491793314183, guid: 89b67ec131a8d4eda88a9460985ad27d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 89b67ec131a8d4eda88a9460985ad27d, type: 3}
