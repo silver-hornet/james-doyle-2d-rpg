@@ -7,6 +7,7 @@ public class MainMenu : MonoBehaviour
 {
     public string newGameScene;
     public GameObject continueButton;
+    public string loadGameScene;
 
     void Start()
     {
@@ -22,7 +23,7 @@ public class MainMenu : MonoBehaviour
 
     public void Continue()
     {
-
+        SceneManager.LoadScene(loadGameScene);
     }
 
     public void NewGame()
@@ -34,4 +35,6 @@ public class MainMenu : MonoBehaviour
     {
         Application.Quit();
     }
+
+
 }
