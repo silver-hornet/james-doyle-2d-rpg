@@ -26,7 +26,7 @@ public class BattleManager : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.T))
+        if (Input.GetKeyDown(KeyCode.Y))
         {
             BattleStart(new string[] { "Eyeball", "Spider" });
         }
