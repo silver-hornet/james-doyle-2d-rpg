@@ -17,5 +17,4 @@ public class BattleChar : MonoBehaviour
     public int weaponPower;
     public int armorPower;
     public bool hasDied;
-
 }

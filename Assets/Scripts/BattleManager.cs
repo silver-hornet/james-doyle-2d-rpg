@@ -23,6 +23,8 @@ public class BattleManager : MonoBehaviour
 
     public GameObject uiButtonsHolder;
 
+    public BattleMove[] movesList;
+
     void Start()
     {
         instance = this;
@@ -200,6 +202,15 @@ public class BattleManager : MonoBehaviour
 
         int selectedTarget = players[Random.Range(0, players.Count)];
 
-        activeBattlers[selectedTarget].currentHP -= 30;
+        // activeBattlers[selectedTarget].currentHP -= 30;
+
+        int selectAttack = Random.Range(0, activeBattlers[currentTurn].movesAvailable.Length);
+        for (int i = 0; i < movesList.Length; i++)
+        {
+            if (movesList[i].moveName == activeBattlers[currentTurn].movesAvailable[selectAttack])
+            {
+                Instantiate(movesList[i].theEffect, activeBattlers[selectedTarget].transform.position, activeBattlers[selectedTarget].transform.rotation);
+            }
+        }
     }
 }
