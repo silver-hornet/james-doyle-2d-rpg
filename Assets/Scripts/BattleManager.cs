@@ -18,6 +18,11 @@ public class BattleManager : MonoBehaviour
 
     public List<BattleChar> activeBattlers = new List<BattleChar>();
 
+    public int currentTurn;
+    public bool turnWaiting;
+
+    public GameObject uiButtonsHolder;
+
     void Start()
     {
         instance = this;
@@ -29,6 +34,28 @@ public class BattleManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Y))
         {
             BattleStart(new string[] { "Eyeball", "Spider" });
+        }
+
+        if (battleActive)
+        {
+            if (turnWaiting)
+            {
+                if(activeBattlers[currentTurn].isPlayer)
+                {
+                    uiButtonsHolder.SetActive(true);
+                }
+                else
+                {
+                    uiButtonsHolder.SetActive(false);
+
+                    // enemy should attack
+                }
+            }
+        }
+
+        if (Input.GetKeyDown(KeyCode.N))
+        {
+            NextTurn();
         }
     }
 
@@ -84,6 +111,68 @@ public class BattleManager : MonoBehaviour
                     }
                 }
             }
+
+            turnWaiting = true;
+            currentTurn = Random.Range(0, activeBattlers.Count);
+        }
+    }
+
+    public void NextTurn()
+    {
+        currentTurn++;
+
+        if (currentTurn >= activeBattlers.Count)
+        {
+            currentTurn = 0;
+        }
+
+        turnWaiting = true;
+        UpdateBattle();
+    }
+
+    public void UpdateBattle()
+    {
+        bool allEnemiesDead = true;
+        bool allPlayersDead = true;
+
+        for (int i = 0; i < activeBattlers.Count; i++)
+        {
+            if (activeBattlers[i].currentHP < 0)
+            {
+                activeBattlers[i].currentHP = 0;
+            }
+
+            if (activeBattlers[i].currentHP == 0)
+            {
+                // handle dead battler
+            }
+            else
+            {
+                if (activeBattlers[i].isPlayer)
+                {
+                    allPlayersDead = false;
+                }
+                else
+                {
+                    allEnemiesDead = false;
+                }
+            }
+        }
+
+        if (allEnemiesDead || allPlayersDead)
+        {
+            if (allEnemiesDead)
+            {
+                // end battle in victory
+            }
+            else
+            {
+                // end battle in failure
+            }
+
+            battleScene.SetActive(false);
+            GameManager.instance.battleActive = false;
+            battleActive = false;
         }
     }
 }
