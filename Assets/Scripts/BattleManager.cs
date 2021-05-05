@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class BattleManager : MonoBehaviour
 {
@@ -27,6 +28,10 @@ public class BattleManager : MonoBehaviour
     public GameObject enemyAttackEffect;
 
     public DamageNumber theDamageNumber;
+
+    public Text[] playerName;
+    public Text[] playerHP;
+    public Text[] playerMP;
 
     void Start()
     {
@@ -120,6 +125,8 @@ public class BattleManager : MonoBehaviour
 
             turnWaiting = true;
             currentTurn = Random.Range(0, activeBattlers.Count);
+
+            UpdateUIStats();
         }
     }
 
@@ -134,6 +141,7 @@ public class BattleManager : MonoBehaviour
 
         turnWaiting = true;
         UpdateBattle();
+        UpdateUIStats();
     }
 
     public void UpdateBattle()
@@ -237,5 +245,34 @@ public class BattleManager : MonoBehaviour
         activeBattlers[target].currentHP -= damageToGive;
 
         Instantiate(theDamageNumber, activeBattlers[target].transform.position, activeBattlers[target].transform.rotation).SetDamage(damageToGive);
+
+        UpdateUIStats();
+    }
+
+    public void UpdateUIStats()
+    {
+        for (int i = 0; i < playerName.Length; i++)
+        {
+            if (activeBattlers.Count > i)
+            {
+                if (activeBattlers[i].isPlayer)
+                {
+                    BattleChar playerData = activeBattlers[i];
+
+                    playerName[i].gameObject.SetActive(true);
+                    playerName[i].text = playerData.charName;
+                    playerHP[i].text = Mathf.Clamp(playerData.currentHP, 0, int.MaxValue) + "/" + playerData.maxHP;
+                    playerMP[i].text = Mathf.Clamp(playerData.currentMP, 0, int.MaxValue) + "/" + playerData.maxMP;
+                }
+                else
+                {
+                    playerName[i].gameObject.SetActive(false);
+                }
+            }
+            else
+            {
+                playerName[i].gameObject.SetActive(false);
+            }
+        }
     }
 }

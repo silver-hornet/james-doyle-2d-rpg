@@ -19329,6 +19329,18 @@ MonoBehaviour:
     type: 3}
   theDamageNumber: {fileID: 6444055429820313531, guid: 4b00b840e211b4af6a9800f40e7dca22,
     type: 3}
+  playerName:
+  - {fileID: 941778713}
+  - {fileID: 892999966}
+  - {fileID: 812830318}
+  playerHP:
+  - {fileID: 512670058}
+  - {fileID: 64921055}
+  - {fileID: 172974509}
+  playerMP:
+  - {fileID: 700601852}
+  - {fileID: 1687305103}
+  - {fileID: 1822384019}
 --- !u!1 &1861626600
 GameObject:
   m_ObjectHideFlags: 0
