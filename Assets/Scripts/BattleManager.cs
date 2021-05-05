@@ -26,6 +26,8 @@ public class BattleManager : MonoBehaviour
     public BattleMove[] movesList;
     public GameObject enemyAttackEffect;
 
+    public DamageNumber theDamageNumber;
+
     void Start()
     {
         instance = this;
@@ -233,5 +235,7 @@ public class BattleManager : MonoBehaviour
         Debug.Log(activeBattlers[currentTurn].charName + " is dealing " + damageCalc + "(" + damageToGive + ") damage to " + activeBattlers[target].charName);
 
         activeBattlers[target].currentHP -= damageToGive;
+
+        Instantiate(theDamageNumber, activeBattlers[target].transform.position, activeBattlers[target].transform.rotation).SetDamage(damageToGive);
     }
 }

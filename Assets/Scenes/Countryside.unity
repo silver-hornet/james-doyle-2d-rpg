@@ -19327,6 +19327,8 @@ MonoBehaviour:
       type: 3}
   enemyAttackEffect: {fileID: 5020984343999141614, guid: d16ffb45559614a5ab37919d659b3135,
     type: 3}
+  theDamageNumber: {fileID: 6444055429820313531, guid: 4b00b840e211b4af6a9800f40e7dca22,
+    type: 3}
 --- !u!1 &1861626600
 GameObject:
   m_ObjectHideFlags: 0
