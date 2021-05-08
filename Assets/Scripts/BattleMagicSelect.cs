@@ -26,4 +26,6 @@ public class BattleMagicSelect : MonoBehaviour
             BattleManager.instance.magicMenu.SetActive(false);
         }
     }
+
+
 }

@@ -173,6 +173,10 @@ public class BattleManager : MonoBehaviour
                 {
                     activeBattlers[i].theSprite.sprite = activeBattlers[i].deadSprite;
                 }
+                else
+                {
+                    activeBattlers[i].EnemyFade();
+                }
             }
             else
             {
@@ -339,7 +343,7 @@ public class BattleManager : MonoBehaviour
 
         for (int i = 0; i < targetButtons.Length; i++)
         {
-            if (enemies.Count > i)
+            if (enemies.Count > i && activeBattlers[enemies[i]].currentHP > 0)
             {
                 targetButtons[i].gameObject.SetActive(true);
                 targetButtons[i].moveName = moveName;
