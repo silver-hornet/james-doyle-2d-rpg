@@ -17,4 +17,8 @@ public class BattleChar : MonoBehaviour
     public int weaponPower;
     public int armorPower;
     public bool hasDied;
+
+    public SpriteRenderer theSprite;
+    public Sprite deadSprite;
+    public Sprite aliveSprite;
 }
