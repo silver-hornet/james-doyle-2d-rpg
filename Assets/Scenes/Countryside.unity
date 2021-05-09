@@ -26070,6 +26070,10 @@ MonoBehaviour:
   battleNotice: {fileID: 295856718}
   chanceToFlee: 35
   gameOverScene: GameOver
+  rewardXP: 500
+  rewardItems:
+  - Wooden Sword
+  - Iron Armor
 --- !u!1 &1861626600
 GameObject:
   m_ObjectHideFlags: 0
