@@ -128,6 +128,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 92137925, guid: 67de18fe674f6401c8173fef916a8b00, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 92137925, guid: 67de18fe674f6401c8173fef916a8b00, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.69
+      objectReference: {fileID: 0}
     - target: {fileID: 1326623900688346496, guid: 67de18fe674f6401c8173fef916a8b00,
         type: 3}
       propertyPath: areaToLoad
@@ -136,7 +144,7 @@ PrefabInstance:
     - target: {fileID: 1326623900688346496, guid: 67de18fe674f6401c8173fef916a8b00,
         type: 3}
       propertyPath: areaTransitionName
-      value: Town
+      value: Town-1
       objectReference: {fileID: 0}
     - target: {fileID: 1326623900688346501, guid: 67de18fe674f6401c8173fef916a8b00,
         type: 3}

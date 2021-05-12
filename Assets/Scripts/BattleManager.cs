@@ -55,7 +55,7 @@ public class BattleManager : MonoBehaviour
     void Start()
     {
         instance = this;
-        DontDestroyOnLoad(gameObject);
+        // DontDestroyOnLoad(gameObject);
     }
 
     void Update()
