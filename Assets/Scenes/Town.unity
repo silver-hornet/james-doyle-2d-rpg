@@ -396,14 +396,22 @@ MonoBehaviour:
   lines:
   - n-Girl
   - Please help me!
-  - n-Player
-  - Is everything okay?
-  - n-Girl
-  - No!
   - My family was kidnapped by a dragon!
-  - n-Player
-  - Don't worry.
-  - I'll save them!
+  - n-Tim
+  - Well... that's unusual.
+  - n-Girl
+  - Are you going to help or not?
+  - n-Tim
+  - I'm not really sure I have the right training for this.
+  - n-Girl
+  - Well, this is a game prototype, so you don't really have a choice.
+  - This prototype won't let me move from this spot.
+  - n-Tim
+  - Ah, that sucks.
+  - Alright, let's get this over with. What do I need to do?
+  - n-Girl
+  - You need to fight the dragon.
+  - He's probably in a cave somewhere...
   isPerson: 1
   shouldActivateQuest: 1
   questToMark: Fight the dragon
