@@ -185,8 +185,7 @@ MonoBehaviour:
   - Fight the dragon
   - Enter the cave
   - Quest test
-  - Save the world
-  - Do something
+  - Mugging
   questMarkersComplete: 
 --- !u!1 &1957840491955448282
 GameObject:
