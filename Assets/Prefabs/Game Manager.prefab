@@ -291,7 +291,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62120254d07dc425482fbe2e2a8eb6e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  charName: Woody
+  charName: Grute
   playerLevel: 3
   currentEXP: 543
   expToNextLevel: 
