@@ -11267,6 +11267,130 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 89b67ec131a8d4eda88a9460985ad27d, type: 3}
+--- !u!1001 &1718527355
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8883200748878471832, guid: 638e56ad218e4402987d1c6f9b5f3dc5,
+        type: 3}
+      propertyPath: m_Name
+      value: Sign
+      objectReference: {fileID: 0}
+    - target: {fileID: 8883200748878471833, guid: 638e56ad218e4402987d1c6f9b5f3dc5,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: -0.33139312
+      objectReference: {fileID: 0}
+    - target: {fileID: 8883200748878471833, guid: 638e56ad218e4402987d1c6f9b5f3dc5,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 1.3642552
+      objectReference: {fileID: 0}
+    - target: {fileID: 8883200748878471833, guid: 638e56ad218e4402987d1c6f9b5f3dc5,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: -1.0141716
+      objectReference: {fileID: 0}
+    - target: {fileID: 8883200748878471833, guid: 638e56ad218e4402987d1c6f9b5f3dc5,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 2.6514225
+      objectReference: {fileID: 0}
+    - target: {fileID: 8883200748878471838, guid: 638e56ad218e4402987d1c6f9b5f3dc5,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8883200748878471838, guid: 638e56ad218e4402987d1c6f9b5f3dc5,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.67
+      objectReference: {fileID: 0}
+    - target: {fileID: 8883200748878471838, guid: 638e56ad218e4402987d1c6f9b5f3dc5,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8883200748878471838, guid: 638e56ad218e4402987d1c6f9b5f3dc5,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8883200748878471838, guid: 638e56ad218e4402987d1c6f9b5f3dc5,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8883200748878471838, guid: 638e56ad218e4402987d1c6f9b5f3dc5,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8883200748878471838, guid: 638e56ad218e4402987d1c6f9b5f3dc5,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8883200748878471838, guid: 638e56ad218e4402987d1c6f9b5f3dc5,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8883200748878471838, guid: 638e56ad218e4402987d1c6f9b5f3dc5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8883200748878471838, guid: 638e56ad218e4402987d1c6f9b5f3dc5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8883200748878471838, guid: 638e56ad218e4402987d1c6f9b5f3dc5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8883200748878471839, guid: 638e56ad218e4402987d1c6f9b5f3dc5,
+        type: 3}
+      propertyPath: lines.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8883200748878471839, guid: 638e56ad218e4402987d1c6f9b5f3dc5,
+        type: 3}
+      propertyPath: isPerson
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8883200748878471839, guid: 638e56ad218e4402987d1c6f9b5f3dc5,
+        type: 3}
+      propertyPath: lines.Array.data[1]
+      value: Hey! You gonna browse, or you gonna actually buy something?
+      objectReference: {fileID: 0}
+    - target: {fileID: 8883200748878471839, guid: 638e56ad218e4402987d1c6f9b5f3dc5,
+        type: 3}
+      propertyPath: lines.Array.data[2]
+      value: This isn't a Chapters Indigo.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8883200748878471839, guid: 638e56ad218e4402987d1c6f9b5f3dc5,
+        type: 3}
+      propertyPath: lines.Array.data[3]
+      value: n-Tim
+      objectReference: {fileID: 0}
+    - target: {fileID: 8883200748878471839, guid: 638e56ad218e4402987d1c6f9b5f3dc5,
+        type: 3}
+      propertyPath: lines.Array.data[0]
+      value: n-Shop Keeper
+      objectReference: {fileID: 0}
+    - target: {fileID: 8883200748878471839, guid: 638e56ad218e4402987d1c6f9b5f3dc5,
+        type: 3}
+      propertyPath: lines.Array.data[4]
+      value: Salty...
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 638e56ad218e4402987d1c6f9b5f3dc5, type: 3}
 --- !u!1 &1861626600
 GameObject:
   m_ObjectHideFlags: 0
