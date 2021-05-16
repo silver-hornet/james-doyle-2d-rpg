@@ -183,7 +183,7 @@ MonoBehaviour:
   questMarkerNames:
   - 
   - Fight the dragon
-  - Enter the cave
+  - Slayed the dragon
   - Quest test
   - Mugging
   questMarkersComplete: 

@@ -7770,7 +7770,7 @@ MonoBehaviour:
   deactivateAfterStarting: 1
   cannotFlee: 1
   shouldCompleteQuest: 1
-  questToComplete: Fight the dragon
+  questToComplete: Slayed the dragon
 --- !u!1 &1069645968
 GameObject:
   m_ObjectHideFlags: 0
