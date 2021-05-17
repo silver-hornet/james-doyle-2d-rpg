@@ -56,6 +56,12 @@ public class GameManager : MonoBehaviour
         {
             LoadData();
         }
+
+        if (Input.GetKeyDown(KeyCode.D))
+        {
+            PlayerPrefs.DeleteAll();
+            Debug.Log("PlayerPref keys deleted.");
+        }
     }
 
     public Item GetItemDetails(string itemToGrab)
