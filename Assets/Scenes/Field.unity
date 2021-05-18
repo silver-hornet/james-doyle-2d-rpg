@@ -2468,17 +2468,20 @@ MonoBehaviour:
     rewardXP: 500
     rewardItems:
     - Health Potion
+    - Health Potion
     - Mana Potion
   - enemies:
     - Eyeball
     rewardXP: 750
     rewardItems:
     - Health Potion
+    - Health Potion
     - Mana Potion
   - enemies:
     - Spider
     rewardXP: 250
     rewardItems:
+    - Health Potion
     - Health Potion
     - Mana Potion
   activateOnEnter: 0
