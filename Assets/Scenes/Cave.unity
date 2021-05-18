@@ -700,36 +700,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 35681114}
   m_CullTransparentMesh: 0
---- !u!1 &57379920
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 57379921}
-  m_Layer: 0
-  m_Name: Grute (After Activation)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &57379921
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 57379920}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -9.580107, y: 0.9957671, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 11
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &64921053
 GameObject:
   m_ObjectHideFlags: 0
@@ -2452,7 +2422,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &297467066
 BoxCollider2D:
@@ -7277,8 +7247,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 983012515}
+  - component: {fileID: 983012516}
   m_Layer: 0
-  m_Name: Grute (Before Activation)
+  m_Name: Grute Activator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7294,10 +7265,26 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -9.580107, y: 0.9957671, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 7564242825132010680}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &983012516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 983012514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f5c779da5e46462d8587331bec40c95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectToActivate: {fileID: 8956870372160676251}
+  questToCheck: Activate Grute
+  activeIfComplete: 0
 --- !u!1 &990623984
 GameObject:
   m_ObjectHideFlags: 0
@@ -7802,7 +7789,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1061220959
 MonoBehaviour:
@@ -8234,7 +8221,7 @@ PrefabInstance:
     - target: {fileID: 1326623900688346503, guid: 67de18fe674f6401c8173fef916a8b00,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1326623900688346503, guid: 67de18fe674f6401c8173fef916a8b00,
         type: 3}
@@ -24315,7 +24302,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1387273597
 GameObject:
@@ -26972,7 +26959,7 @@ Transform:
   m_Children:
   - {fileID: 30563187}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1857185228
 MonoBehaviour:
@@ -27603,7 +27590,7 @@ PrefabInstance:
     - target: {fileID: 4349714806690414404, guid: c7021badf23594f2185f1ae224aa008a,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4349714806690414404, guid: c7021badf23594f2185f1ae224aa008a,
         type: 3}
@@ -28195,8 +28182,8 @@ MonoBehaviour:
   - Here... take me with you.
   isPerson: 1
   shouldActivateQuest: 0
-  questToMark: 
-  markComplete: 0
+  questToMark: Activate Grute
+  markComplete: 1
 --- !u!61 &4564029318480257070
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -28257,11 +28244,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8956870372160676251}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -9.580107, y: 0.9957671, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_Father: {fileID: 983012515}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8956870372160676251
 GameObject:

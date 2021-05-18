@@ -188,6 +188,7 @@ MonoBehaviour:
   - Quest test
   - Mugging
   - Game over
+  - Activate Grute
   questMarkersComplete: 
 --- !u!1 &1957840491955448282
 GameObject:
