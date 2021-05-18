@@ -97,15 +97,14 @@ MonoBehaviour:
   isPlayer: 0
   movesAvailable:
   - Slash
-  - Fire
   charName: Skeleton
-  currentHP: 150
+  currentHP: 200
   maxHP: 250
   currentMP: 0
   maxMP: 0
-  strength: 5
+  strength: 1
   defence: 5
-  weaponPower: 5
+  weaponPower: 1
   armorPower: 5
   hasDied: 0
   theSprite: {fileID: 9015858892263244249}

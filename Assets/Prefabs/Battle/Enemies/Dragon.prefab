@@ -99,6 +99,7 @@ MonoBehaviour:
   - Slash
   - Plasma
   - Ice
+  - Fire
   charName: Dragon
   currentHP: 5
   maxHP: 1000

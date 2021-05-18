@@ -2418,7 +2418,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 297467064}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.06, y: -1.07, z: 0}
+  m_LocalPosition: {x: -4.05, y: -1.07, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1552882392}
@@ -2465,23 +2465,22 @@ MonoBehaviour:
   potentialBattles:
   - enemies:
     - Skeleton
-    - Spider
     rewardXP: 500
     rewardItems:
-    - Iron Sword
+    - Health Potion
+    - Mana Potion
   - enemies:
-    - Eyeball
-    - Eyeball
     - Eyeball
     rewardXP: 750
     rewardItems:
     - Health Potion
-    - Health Potion
+    - Mana Potion
   - enemies:
     - Spider
     rewardXP: 250
     rewardItems:
-    - Leather Armor
+    - Health Potion
+    - Mana Potion
   activateOnEnter: 0
   activateOnStay: 0
   activateOnExit: 1
@@ -49542,7 +49541,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1552882391}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.37, y: -1.75, z: 0}
+  m_LocalPosition: {x: 3.74, y: -1.75, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 297467065}

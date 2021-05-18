@@ -49,7 +49,7 @@ MonoBehaviour:
   expToNextLevel: 
   maxLevel: 100
   baseEXP: 1000
-  currentHP: 0
+  currentHP: 60
   maxHP: 100
   currentMP: 0
   maxMP: 30
@@ -167,7 +167,7 @@ MonoBehaviour:
   - {fileID: 7646625488072120787, guid: 8231a89c2bf224579a2807c5e03e34e2, type: 3}
   - {fileID: 7518122249181512043, guid: 505521f75b61946ff818b462e892b9a4, type: 3}
   - {fileID: 2257675488665864078, guid: 2789f52648d194f65aabc33b94006218, type: 3}
-  currentGold: 100
+  currentGold: 60
 --- !u!114 &1957840491337454971
 MonoBehaviour:
   m_ObjectHideFlags: 0
