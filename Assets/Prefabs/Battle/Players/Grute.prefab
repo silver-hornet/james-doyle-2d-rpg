@@ -98,7 +98,7 @@ MonoBehaviour:
   movesAvailable:
   - Ice
   - Plasma
-  charName: Woody
+  charName: Grute
   currentHP: 0
   maxHP: 0
   currentMP: 0
@@ -111,3 +111,4 @@ MonoBehaviour:
   theSprite: {fileID: 4700306715428369335}
   deadSprite: {fileID: 21300046, guid: e0ddba6d3fcf21f49949fcc95c849aac, type: 3}
   aliveSprite: {fileID: 21300024, guid: e0ddba6d3fcf21f49949fcc95c849aac, type: 3}
+  fadeSpeed: 1
