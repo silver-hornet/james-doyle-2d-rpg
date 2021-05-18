@@ -20,6 +20,8 @@ public class GameManager : MonoBehaviour
 
     public int currentGold;
 
+    public GameObject addGrute;
+
     void Start()
     {
         instance = this;

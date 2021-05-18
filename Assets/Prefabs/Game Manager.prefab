@@ -168,6 +168,7 @@ MonoBehaviour:
   - {fileID: 7518122249181512043, guid: 505521f75b61946ff818b462e892b9a4, type: 3}
   - {fileID: 2257675488665864078, guid: 2789f52648d194f65aabc33b94006218, type: 3}
   currentGold: 60
+  addGrute: {fileID: 1957840492309484861}
 --- !u!114 &1957840491337454971
 MonoBehaviour:
   m_ObjectHideFlags: 0
