@@ -481,4 +481,10 @@ public class BattleManager : MonoBehaviour
         battleScene.SetActive(false);
         SceneManager.LoadScene(gameOverScene);
     }
+
+    public void UseItem()
+    {
+        battleNotice.theText.text = "Not available in this prototype!";
+        battleNotice.Activate();
+    }
 }
