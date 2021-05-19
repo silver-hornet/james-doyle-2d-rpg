@@ -18,10 +18,10 @@ public class GameOver : MonoBehaviour
 
     public void QuitToMain()
     {
-        //Destroy(GameManager.instance.gameObject);
-        //Destroy(PlayerController.instance.gameObject);
-        //Destroy(GameMenu.instance.gameObject);
-        //Destroy(AudioManager.instance.gameObject);
+        Destroy(GameManager.instance.gameObject);
+        Destroy(PlayerController.instance.gameObject);
+        Destroy(GameMenu.instance.gameObject);
+        Destroy(AudioManager.instance.gameObject);
         //Destroy(BattleManager.instance.gameObject);
 
         SceneManager.LoadScene(mainMenuScene);
