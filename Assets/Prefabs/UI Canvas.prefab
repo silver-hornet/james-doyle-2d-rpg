@@ -2824,7 +2824,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 157.1684, y: -284.8082}
+  m_AnchoredPosition: {x: 157.1684, y: -167.88492}
   m_SizeDelta: {x: 314.3368, y: 101.92328}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &94938771
@@ -45360,7 +45360,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1878863597
 RectTransform:
   m_ObjectHideFlags: 0
@@ -51643,6 +51643,8 @@ MonoBehaviour:
   rewardScreen: {fileID: 1080545467}
   rewardItems: []
   xpEarned: 0
+  markQuestComplete: 0
+  questToMark: 
 --- !u!1 &4349714807177430841
 GameObject:
   m_ObjectHideFlags: 0
