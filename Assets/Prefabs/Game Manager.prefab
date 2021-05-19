@@ -49,7 +49,7 @@ MonoBehaviour:
   expToNextLevel: 
   maxLevel: 100
   baseEXP: 1000
-  currentHP: 100
+  currentHP: 10
   maxHP: 100
   currentMP: 30
   maxMP: 30
