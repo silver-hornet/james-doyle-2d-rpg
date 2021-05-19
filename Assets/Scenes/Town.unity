@@ -5766,6 +5766,9 @@ MonoBehaviour:
   - Hey! Do you mind!
   - n-Tim
   - Sorry.
+  - I'm looking for the shop.
+  - n-Resident
+  - Try the other cottage.
   isPerson: 1
   shouldActivateQuest: 0
   questToMark: 

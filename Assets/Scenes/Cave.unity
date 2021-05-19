@@ -7806,10 +7806,12 @@ MonoBehaviour:
   potentialBattles:
   - enemies:
     - Dragon
-    rewardXP: 2000
+    rewardXP: 100
     rewardItems:
     - Mana Potion
-    - Iron Sword
+    - Health Potion
+    - Mana Potion
+    - Health Potion
   activateOnEnter: 1
   activateOnStay: 0
   activateOnExit: 0

@@ -101,8 +101,8 @@ MonoBehaviour:
   - Ice
   - Fire
   charName: Dragon
-  currentHP: 5
-  maxHP: 1000
+  currentHP: 1000
+  maxHP: 1500
   currentMP: 0
   maxMP: 0
   strength: 5
