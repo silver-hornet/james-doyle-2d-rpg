@@ -29,9 +29,9 @@ public class GameOver : MonoBehaviour
 
     public void LoadLastSave()
     {
-        //Destroy(GameManager.instance.gameObject);
-        //Destroy(PlayerController.instance.gameObject);
-        //Destroy(GameMenu.instance.gameObject);
+        Destroy(GameManager.instance.gameObject);
+        Destroy(PlayerController.instance.gameObject);
+        Destroy(GameMenu.instance.gameObject);
         //Destroy(BattleManager.instance.gameObject);
 
         SceneManager.LoadScene(loadGameScene);
