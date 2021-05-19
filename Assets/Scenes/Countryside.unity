@@ -9631,7 +9631,7 @@ PrefabInstance:
     - target: {fileID: 1326623900688346496, guid: 67de18fe674f6401c8173fef916a8b00,
         type: 3}
       propertyPath: areaTransitionName
-      value: Countryside-3
+      value: Countryside-2
       objectReference: {fileID: 0}
     - target: {fileID: 1326623900688346501, guid: 67de18fe674f6401c8173fef916a8b00,
         type: 3}
@@ -9641,7 +9641,7 @@ PrefabInstance:
     - target: {fileID: 1326623900688346501, guid: 67de18fe674f6401c8173fef916a8b00,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1326623900688346502, guid: 67de18fe674f6401c8173fef916a8b00,
         type: 3}
