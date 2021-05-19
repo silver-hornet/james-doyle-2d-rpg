@@ -24,10 +24,10 @@ public class BattleReward : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.R))
-        {
-            OpenRewardScreen(54, new string[] { "Iron Sword", "Iron Armor" });
-        }
+        //if (Input.GetKeyDown(KeyCode.R)) // Use for testing
+        //{
+        //    OpenRewardScreen(54, new string[] { "Iron Sword", "Iron Armor" });
+        //}
     }
 
     public void OpenRewardScreen(int xp, string[] rewards)

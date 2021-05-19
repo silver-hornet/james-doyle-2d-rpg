@@ -18,22 +18,22 @@ public class QuestManager : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Q))
-        {
-            Debug.Log(CheckIfComplete("Quest test"));
-            MarkQuestComplete("Quest test");
-            MarkQuestIncomplete("Fight the demon");
-        }
+        //if (Input.GetKeyDown(KeyCode.Q)) // Use for testing
+        //{
+        //    Debug.Log(CheckIfComplete("Quest test"));
+        //    MarkQuestComplete("Quest test");
+        //    MarkQuestIncomplete("Fight the demon");
+        //}
 
-        if (Input.GetKeyDown(KeyCode.O))
-        {
-            SaveQuestData();
-        }
+        //if (Input.GetKeyDown(KeyCode.O)) // Use for testing
+        //{
+        //    SaveQuestData();
+        //}
 
-        if (Input.GetKeyDown(KeyCode.P))
-        {
-            LoadQuestData();
-        }
+        //if (Input.GetKeyDown(KeyCode.P)) // Use for testing
+        //{
+        //    LoadQuestData();
+        //}
     }
 
     public int GetQuestNumber(string questToFind)

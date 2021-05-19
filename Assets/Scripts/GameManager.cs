@@ -40,24 +40,24 @@ public class GameManager : MonoBehaviour
             PlayerController.instance.canMove = true;
         }
 
-        if (Input.GetKeyDown(KeyCode.J))
-        {
-            AddItem("Iron Armor");
-            AddItem("Blabla");
+        //if (Input.GetKeyDown(KeyCode.J)) // Use for testing
+        //{
+        //    AddItem("Iron Armor");
+        //    AddItem("Blabla");
 
-            RemoveItem("Health Potion");
-            RemoveItem("Bleep");
-        }
+        //    RemoveItem("Health Potion");
+        //    RemoveItem("Bleep");
+        //}
 
-        if (Input.GetKeyDown(KeyCode.O))
-        {
-            SaveData();
-        }
+        //if (Input.GetKeyDown(KeyCode.O)) // Use for testing
+        //{
+        //    SaveData();
+        //}
 
-        if (Input.GetKeyDown(KeyCode.P))
-        {
-            LoadData();
-        }
+        //if (Input.GetKeyDown(KeyCode.P)) // Use for testing
+        //{
+        //    LoadData();
+        //}
 
         if (Input.GetKeyDown(KeyCode.D))
         {

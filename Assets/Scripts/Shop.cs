@@ -33,10 +33,10 @@ public class Shop : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.K) && !shopMenu.activeInHierarchy)
-        {
-            OpenShop();
-        }
+        //if (Input.GetKeyDown(KeyCode.K) && !shopMenu.activeInHierarchy) // Use for testing
+        //{
+        //    OpenShop();
+        //}
     }
 
     public void OpenShop()

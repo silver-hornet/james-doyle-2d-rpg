@@ -17,11 +17,11 @@ public class AudioManager : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.T))
-        {
-            PlaySFX(4);
-            PlayBGM(3);
-        }
+        //if (Input.GetKeyDown(KeyCode.T)) // Use for testing
+        //{
+        //    PlaySFX(4);
+        //    PlayBGM(3);
+        //}
     }
 
     public void PlaySFX(int soundToPlay)

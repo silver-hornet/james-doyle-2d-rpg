@@ -60,10 +60,10 @@ public class BattleManager : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Y))
-        {
-            BattleStart(new string[] { "Eyeball", "Spider", "Skeleton" }, false);
-        }
+        //if (Input.GetKeyDown(KeyCode.Y)) // Use for testing
+        //{
+        //    BattleStart(new string[] { "Eyeball", "Spider", "Skeleton" }, false);
+        //}
 
         if (battleActive)
         {
@@ -83,10 +83,10 @@ public class BattleManager : MonoBehaviour
             }
         }
 
-        if (Input.GetKeyDown(KeyCode.N))
-        {
-            NextTurn();
-        }
+        //if (Input.GetKeyDown(KeyCode.N)) // Use for testing
+        //{
+        //    NextTurn();
+        //}
     }
 
     public void BattleStart(string[] enemiesToSpawn, bool setCannotFlee)
