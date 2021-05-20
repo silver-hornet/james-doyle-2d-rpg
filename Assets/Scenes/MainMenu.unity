@@ -663,7 +663,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Adventure Story
+  m_Text: Yet Another 2D RPG Game
 --- !u!222 &913058641
 CanvasRenderer:
   m_ObjectHideFlags: 0
